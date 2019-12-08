@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/menuSPA/static/css/main.77c00505.chunk.css",
+    "main.js": "/menuSPA/static/js/main.bdaf985b.chunk.js",
+    "main.js.map": "/menuSPA/static/js/main.bdaf985b.chunk.js.map",
+    "runtime-main.js": "/menuSPA/static/js/runtime-main.16152bbd.js",
+    "runtime-main.js.map": "/menuSPA/static/js/runtime-main.16152bbd.js.map",
+    "static/js/2.2c42103f.chunk.js": "/menuSPA/static/js/2.2c42103f.chunk.js",
+    "static/js/2.2c42103f.chunk.js.map": "/menuSPA/static/js/2.2c42103f.chunk.js.map",
+    "index.html": "/menuSPA/index.html",
+    "precache-manifest.fcdf6dc15f285ae9337d5a699949e849.js": "/menuSPA/precache-manifest.fcdf6dc15f285ae9337d5a699949e849.js",
+    "service-worker.js": "/menuSPA/service-worker.js",
+    "static/css/main.77c00505.chunk.css.map": "/menuSPA/static/css/main.77c00505.chunk.css.map",
+    "static/js/2.2c42103f.chunk.js.LICENSE": "/menuSPA/static/js/2.2c42103f.chunk.js.LICENSE",
+    "static/media/header1.jpg": "/menuSPA/static/media/header1.70e6670e.jpg",
+    "static/media/header2.jpg": "/menuSPA/static/media/header2.33eca35f.jpg",
+    "static/media/header3.jpg": "/menuSPA/static/media/header3.d9d36b65.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16152bbd.js",
+    "static/js/2.2c42103f.chunk.js",
+    "static/css/main.77c00505.chunk.css",
+    "static/js/main.bdaf985b.chunk.js"
+  ]
+}
