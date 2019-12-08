@@ -4,18 +4,28 @@ import "../styles/ContactPage.css";
 
 class ContactPage extends Component {
   state = {
-    value: ""
+    value: "",
+    isEmpty: true
   };
   handleSubmit = e => {
     e.preventDefault();
     this.setState({
-      value: ""
+      value: "",
+      isEmpty: true
     });
   };
   handleChange = e => {
-    this.setState({
-      value: e.target.value
-    });
+    if (e.target.value.length > 0) {
+      this.setState({
+        value: e.target.value,
+        isEmpty: false
+      });
+    } else {
+      this.setState({
+        value: e.target.value,
+        isEmpty: true
+      });
+    }
   };
 
   render() {
@@ -31,7 +41,7 @@ class ContactPage extends Component {
           <button>Send</button>
         </form>
         <Prompt
-          when={this.state.value}
+          when={!this.state.isEmpty}
           message="You have not completed the form. Are you sure you want to leave?"
         />
       </div>
