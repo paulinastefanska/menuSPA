@@ -1,0 +1,41 @@
+nav.main {
+  padding: 0 20px;
+}
+.main ul {
+  list-style: none;
+}
+
+.main a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  transition: 0.2s ease;
+}
+
+.main a:hover {
+  transform: translateX(20px);
+}
+
+.main a.active {
+  border-left: 10px solid gray;
+  transform: translateX(0);
+}
+
+.main li:nth-child(1) a.active {
+  border-left-color: green;
+}
+
+.main li:nth-child(2) a.active {
+  border-left-color: blue;
+}
+
+.main li:nth-child(3) a.active {
+  border-left-color: orange;
+}
+
+.main li:nth-child(4) a.active {
+  border-left-color: red;
+}
